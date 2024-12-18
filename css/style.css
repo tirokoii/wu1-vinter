@@ -1,17 +1,18 @@
+/*
 @font-face {
-  font-family: 'KerakNeraka';
-  src: url('./KerakNeraka-8Oaoz.otf');
+  font-family: 'Meddon';
+  src: url('https://fonts.googleapis.com/css2?family=Meddon&family=Mountains+of+Christmas&display=swap');
   font-weight: normal;
   font-style: normal;
 }
+*/
 
 :root {
   --color-bg: rgba(103, 157, 157, 0.587);
-  --color-fg: #fff;
-
-  --font-body: sans-serif;
-  --font-header: 'KerakNeraka', sans-serif;
-
+  --color-fg: #ffffff;
+  --font-body: 'Amatic SC',sans-serif;
+  --font-header: 'Meddon', sans-serif;
+  
   --step--2: clamp(0.6331rem, 0.6141rem + 0.0949vw, 0.6877rem);
   --step--1: clamp(0.844rem, 0.7993rem + 0.2234vw, 0.9724rem);
   --step-0: clamp(1.125rem, 1.038rem + 0.4348vw, 1.375rem);
@@ -31,7 +32,7 @@ body {
     padding: 0;
     display: grid;
     place-items: center;
-    background-color: var(--color-bg);
+    background-image: linear-gradient(to top, rgb(7, 0, 40), rgb(5, 184, 255));
     z-index: -1;
 }
 
@@ -61,3 +62,4 @@ canvas {
     left: 0;
     z-index: 0;
 }
+
