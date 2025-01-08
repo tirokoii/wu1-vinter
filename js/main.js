@@ -4,6 +4,11 @@ const color = [230, 120, 140];
 /* justera hur snabbt snön faller */
 const speed = 7;
 
+
+/* bild*/
+const image = document.createElement('img');
+image.src = "js/christmas.ball.png";
+
 /* Ändra här nedanför på egen risk */
 
 const randomInt = (min, max) => {
